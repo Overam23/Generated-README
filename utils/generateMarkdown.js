@@ -1,6 +1,8 @@
+// using the checkbox in index.js for license question, the user input image is generated into the ReadMe
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge() {}
+
 
 
 // TODO: Create a function that returns the license link
@@ -31,9 +33,9 @@ function generateMarkdown(data) {
   ${data.description}
   
   ## Installation
-  \`\`\`
+  
   ${data.install}
-  \`\`\`
+  
   
   ## Usage
   ${data.usage}
@@ -42,9 +44,9 @@ function generateMarkdown(data) {
   ${data.contribution}
   
   ## Tests
-  \`\`\`
+  
   ${data.test}
-  \`\`\`
+  
   
   ## License
   ${data.license.join(' ')}
